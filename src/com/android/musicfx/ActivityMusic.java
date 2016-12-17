@@ -276,10 +276,7 @@ public class ActivityMusic extends Activity implements OnSeekBarChangeListener {
 
         // check for errors
         if (mCallingPackageName == null) {
-            Log.e(TAG, "Package name is null");
-            setResult(RESULT_CANCELED);
-            finish();
-            return;
+            mCallingPackageName = "com.android.musicfx";
         }
         setResult(RESULT_OK);
 
