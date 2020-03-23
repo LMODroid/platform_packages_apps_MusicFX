@@ -33,6 +33,7 @@
         <activity
             android:name=".ActivityMusic"
             android:theme="@android:style/Theme.Material.Light"
+            android:exported="true"
             android:label="@string/eq_dialog_title">
             <intent-filter>
                 <action
@@ -48,7 +49,8 @@
             android:theme="@*android:style/Theme.Holo.Dialog.Alert"
             android:excludeFromRecents="true" />
         <receiver
-            android:name=".ControlPanelReceiver">
+            android:name=".ControlPanelReceiver"
+            android:exported="true">
             <intent-filter>
                 <action
                     android:name="android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION" />
@@ -64,7 +66,8 @@
         </receiver>
 
         <receiver
-            android:name="Compatibility$Receiver">
+            android:name="Compatibility$Receiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
                 <data android:scheme="package" />
@@ -80,7 +83,8 @@
         </receiver>
         <service android:name="Compatibility$Service" android:exported="false" />
         <activity
-            android:name="Compatibility$Redirector">
+            android:name="Compatibility$Redirector"
+            android:exported="true">
             <intent-filter
                 android:priority="2147483647">
                 <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
