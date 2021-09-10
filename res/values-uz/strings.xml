@@ -28,12 +28,12 @@
     <string name="dance" msgid="212617702657103572">"Raqs"</string>
     <string name="flat" msgid="2844441946717126606">"Ravon"</string>
     <string name="folk" msgid="5648693824262941979">"Folklor"</string>
-    <string name="heavy_metal" msgid="3885222304402494034">"Xevi-metal"</string>
+    <string name="heavy_metal" msgid="3885222304402494034">"Hevi-metal"</string>
     <string name="hip_hop" msgid="4147534012796302488">"Hip-hop"</string>
     <string name="jazz" msgid="556328727821095055">"Jaz"</string>
     <string name="pop" msgid="8568493898002509539">"Pop"</string>
     <string name="rock" msgid="4226553710464965901">"Rok"</string>
-    <string name="ci_extreme" msgid="67259122484788490">"FX kuchaytirgich"</string>
+    <string name="ci_extreme" msgid="67259122484788490">"FX buster"</string>
     <string name="user" msgid="8392147515328861077">"Foydalanuvchi"</string>
     <string name="picker_title" msgid="4756201760847390691">"Musiqiy effektlar boshqaruv paneli"</string>
 </resources>
