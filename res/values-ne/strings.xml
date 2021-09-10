@@ -21,7 +21,7 @@
     <string name="eq_dialog_title" msgid="3237402214371962070">"इक्विलाइजर"</string>
     <string name="headset_plug" msgid="1774198554148807517">"यी इफेक्टहरू सुन्नका लागि हेडफोन जोड्नुहोस्।"</string>
     <string name="bass_boost_strength" msgid="8643071340166812205">"बेस बुस्ट"</string>
-    <string name="virtualizer_strength" msgid="2139410708760989842">"वरपरको ध्वनि"</string>
+    <string name="virtualizer_strength" msgid="2139410708760989842">"वरपरको साउन्ड"</string>
     <string name="setup" msgid="4811197673396615722">"सेटअप"</string>
     <string name="normal" msgid="757786146857325609">"सामान्य"</string>
     <string name="classical" msgid="1975693421508209132">"क्लासिकल"</string>
