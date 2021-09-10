@@ -33,7 +33,7 @@
     <string name="jazz" msgid="556328727821095055">"爵士"</string>
     <string name="pop" msgid="8568493898002509539">"流行"</string>
     <string name="rock" msgid="4226553710464965901">"摇滚"</string>
-    <string name="ci_extreme" msgid="67259122484788490">"音效增强器"</string>
+    <string name="ci_extreme" msgid="67259122484788490">"FX 增强器"</string>
     <string name="user" msgid="8392147515328861077">"用户"</string>
     <string name="picker_title" msgid="4756201760847390691">"音乐效果控制面板"</string>
 </resources>

@@ -20,7 +20,7 @@
     <string name="no_effects" msgid="9023408561505030260">"ಎಫೆಕ್ಟ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ"</string>
     <string name="eq_dialog_title" msgid="3237402214371962070">"ಈಕ್ವಲೈಜರ್"</string>
     <string name="headset_plug" msgid="1774198554148807517">"ಈ ಎಫೆಕ್ಟ್‌ಗಳಿಗಾಗಿ ಹೆಡ್‌ಫೋನ್‌ಗಳನ್ನು ಪ್ಲಗ್ ಇನ್ ಮಾಡಿ."</string>
-    <string name="bass_boost_strength" msgid="8643071340166812205">"ಬಾಸ್ ಬೂಸ್ಟ್"</string>
+    <string name="bass_boost_strength" msgid="8643071340166812205">"ಬೇಸ್ ಬೂಸ್ಟ್"</string>
     <string name="virtualizer_strength" msgid="2139410708760989842">"ಸರೌಂಡ್ ಶಬ್ದ"</string>
     <string name="setup" msgid="4811197673396615722">"ಸೆಟಪ್"</string>
     <string name="normal" msgid="757786146857325609">"ಸಾಮಾನ್ಯ"</string>

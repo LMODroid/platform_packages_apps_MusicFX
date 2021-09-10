@@ -20,7 +20,7 @@
     <string name="no_effects" msgid="9023408561505030260">"Էֆեկտները հասանելի չեն։"</string>
     <string name="eq_dialog_title" msgid="3237402214371962070">"Էկվալայզեր"</string>
     <string name="headset_plug" msgid="1774198554148807517">"Այս էֆեկտները ստանալու համար միացրեք ականջակալը։"</string>
-    <string name="bass_boost_strength" msgid="8643071340166812205">"Ցածր հաճախականությունների ուժեղացում"</string>
+    <string name="bass_boost_strength" msgid="8643071340166812205">"Բասերի ուժեղացում"</string>
     <string name="virtualizer_strength" msgid="2139410708760989842">"Ծավալային ձայն"</string>
     <string name="setup" msgid="4811197673396615722">"Կարգավորում"</string>
     <string name="normal" msgid="757786146857325609">"Սովորական"</string>
