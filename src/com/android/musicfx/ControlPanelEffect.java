@@ -982,14 +982,6 @@ public class ControlPanelEffect {
                 Context.MODE_PRIVATE);
         final SharedPreferences.Editor editor = prefs.edit();
 
-        final boolean isGlobalEnabled = prefs.getBoolean(Key.global_enabled.toString(),
-                GLOBAL_ENABLED_DEFAULT);
-        editor.putBoolean(Key.global_enabled.toString(), isGlobalEnabled);
-
-        if (!isGlobalEnabled) {
-            return;
-        }
-
         // Manage audioSession information
 
         // Retrieve AudioSession Id from map
@@ -1006,6 +998,14 @@ public class ControlPanelEffect {
         } else {
             closeSession(context, packageName);
             mPackageSessions.put(packageName, audioSession);
+        }
+
+        final boolean isGlobalEnabled = prefs.getBoolean(Key.global_enabled.toString(),
+                GLOBAL_ENABLED_DEFAULT);
+        editor.putBoolean(Key.global_enabled.toString(), isGlobalEnabled);
+
+        if (!isGlobalEnabled) {
+            return;
         }
 
         // Because the audioSession is new, get effects & settings from shared preferences
