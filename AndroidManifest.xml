@@ -34,7 +34,7 @@
         android:allowBackup="false">
         <activity
             android:name=".ActivityMusic"
-            android:theme="@android:style/Theme.Material.Light"
+            android:theme="@style/Theme.Material"
             android:excludeFromRecents="true"
             android:exported="true"
             android:label="@string/eq_dialog_title">
