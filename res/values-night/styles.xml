@@ -16,6 +16,7 @@
 
 <resources>
 
-    <style name="Theme.Material" parent="android:style/Theme.Material" />
-
+    <style name="Theme.Material" parent="android:style/Theme.Material">
+        <item name="android:colorAccent">@*android:color/accent_device_default</item>
+    </style>
 </resources>
