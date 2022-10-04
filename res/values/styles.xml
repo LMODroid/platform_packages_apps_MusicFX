@@ -16,6 +16,7 @@
 
 <resources>
 
-    <style name="Theme.Material" parent="android:style/Theme.Material.Light" />
-
+    <style name="Theme.Material" parent="android:style/Theme.Material.Light">
+        <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+    </style>
 </resources>
