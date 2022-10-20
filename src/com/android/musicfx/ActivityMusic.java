@@ -64,7 +64,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Formatter;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -177,19 +176,17 @@ public class ActivityMusic extends Activity implements OnSeekBarChangeListener {
     /**
      * Default localized equalizer preset names. Keep the same as EffectBundle::gEqualizerPresets.
      */
-    private static final Map<String, Integer> LOCALIZED_EQUALIZER_PRESET_NAMES
-            = new HashMap<String, Integer>() {{
-            put("Normal", R.string.normal);
-            put("Classical", R.string.classical);
-            put("Dance", R.string.dance);
-            put("Flat", R.string.flat);
-            put("Folk", R.string.folk);
-            put("Heavy Metal", R.string.heavy_metal);
-            put("Hip Hop", R.string.hip_hop);
-            put("Jazz", R.string.jazz);
-            put("Pop", R.string.pop);
-            put("Rock", R.string.rock);
-    }};
+    private static final Map<String, Integer> LOCALIZED_EQUALIZER_PRESET_NAMES = Map.of(
+            "Normal", R.string.normal,
+            "Classical", R.string.classical,
+            "Dance", R.string.dance,
+            "Flat", R.string.flat,
+            "Folk", R.string.folk,
+            "Heavy Metal", R.string.heavy_metal,
+            "Hip Hop", R.string.hip_hop,
+            "Jazz", R.string.jazz,
+            "Pop", R.string.pop,
+            "Rock", R.string.rock);
 
     /**
      * Context field
