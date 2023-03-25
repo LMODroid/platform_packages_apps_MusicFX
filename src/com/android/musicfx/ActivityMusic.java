@@ -247,7 +247,7 @@ public class ActivityMusic extends Activity implements OnSeekBarChangeListener {
                 continue;
             }
             final int type = deviceInfo.getType();
-            if (HEADSET_DEVICE_TYPES.contains(deviceInfo.getType())) {
+            if (HEADSET_DEVICE_TYPES.contains(type)) {
                 Log.v(TAG, " at least a HeadSet device type " + type + " connected");
                 return true;
             }
