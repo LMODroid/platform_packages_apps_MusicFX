@@ -81,6 +81,7 @@
             </intent-filter>
         </receiver>
         <service android:name="Compatibility$Service" android:exported="false" />
+        <service android:name="KeepAliveService" android:exported="true" />
         <activity
             android:name="Compatibility$Redirector"
             android:exported="true">
