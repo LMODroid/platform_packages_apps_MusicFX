@@ -46,6 +46,11 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
+
 import com.android.audiofx.OpenSLESConstants;
 
 import java.util.Formatter;
@@ -522,6 +527,9 @@ public class ActivityMusic extends Activity implements OnSeekBarChangeListener {
             ((TextView) findViewById(R.id.noEffectsTextView)).setVisibility(View.VISIBLE);
         }
 
+        if (com.android.media.audio.Flags.musicFxEdgeToEdge()) {
+            setupEdgeToEdge();
+        }
     }
 
     /*
@@ -894,5 +902,19 @@ public class ActivityMusic extends Activity implements OnSeekBarChangeListener {
             }
         }
         return transauralSupported;
+    }
+
+    private void setupEdgeToEdge() {
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), false /* decorFitsSystemWindows */);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.contentSoundEffects),
+                (v, windowInsets) -> {
+                    Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars());
+                    // Apply the insets paddings to the view.
+                    v.setPadding(insets.left, insets.top, insets.right, insets.bottom);
+
+                    // Return CONSUMED if you don't want the window insets to keep being
+                    // passed down to descendant views.
+                    return WindowInsetsCompat.CONSUMED;
+                });
     }
 }
