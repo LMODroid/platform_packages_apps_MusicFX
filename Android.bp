@@ -8,4 +8,9 @@ android_app {
     libs: ["framework"],
     platform_apis: true,
     privileged: true,
+    static_libs: [
+        // External dependencies
+        "androidx.window_window-java",
+        "com.android.media.audio-aconfig-java",
+    ],
 }
