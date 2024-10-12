@@ -20,7 +20,7 @@
     <string name="no_effects" msgid="9023408561505030260">"Effets indisponibles."</string>
     <string name="eq_dialog_title" msgid="3237402214371962070">"Égalisateur"</string>
     <string name="headset_plug" msgid="1774198554148807517">"Veuillez brancher un casque d\'écoute pour écouter ces effets."</string>
-    <string name="bass_boost_strength" msgid="8643071340166812205">"Amplification des basses"</string>
+    <string name="bass_boost_strength" msgid="8643071340166812205">"Amplification des graves"</string>
     <string name="virtualizer_strength" msgid="2139410708760989842">"Son ambiophonique"</string>
     <string name="setup" msgid="4811197673396615722">"Configuration"</string>
     <string name="normal" msgid="757786146857325609">"Normal"</string>
