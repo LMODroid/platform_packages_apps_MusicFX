@@ -527,9 +527,7 @@ public class ActivityMusic extends Activity implements OnSeekBarChangeListener {
             ((TextView) findViewById(R.id.noEffectsTextView)).setVisibility(View.VISIBLE);
         }
 
-        if (com.android.media.audio.Flags.musicFxEdgeToEdge()) {
-            setupEdgeToEdge();
-        }
+        setupEdgeToEdge();
     }
 
     /*
